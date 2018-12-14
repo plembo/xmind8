@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=XMind8
+Comment=Create and share mind maps
+Exec=xmind
+Terminal=false
+Type=Application
+Icon=xmind.png
+Categories=Office;
+StartupNotify=true;
