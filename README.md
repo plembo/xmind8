@@ -23,7 +23,7 @@ Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installin
 
 9. Copy /opt/xmind/XMind_amd64/configuration to ~/.config/xmind.
 
-10. Copy /opt/xmind/XMind_64/p2 to ~/.config/xmind.
+10. Copy /opt/xmind/XMind_amd64/p2 to ~/.config/xmind.
 
 11. Edit /opt/xmind/XMind_64/XMind.ini to change paths in lines 2 and 4 as follows:
     ```
