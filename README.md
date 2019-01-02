@@ -15,9 +15,9 @@ Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installin
 
 5. Run the modified setup.sh as root or sudo root. This will install OpenJDK 8 and extra fonts.
 
-6. Create a symlink from /opt/xmind/xmind.sh to /usr/local/bin.
+6. Create a symlink from /opt/xmind/xmind.sh to /usr/local/bin/xmind.
 
-7. Create a symlink from /opt/xmind/xmind.png to /usr/share/icons.
+7. Create a symlink from /opt/xmind/xmind.png to /usr/share/icons/xmind.png.
 
 8. Create ~/.config/xmind/workspace in your home directory.
 
@@ -33,7 +33,7 @@ Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installin
 
 12. Run xmind from a terminal to confirm it works.
 
-13. Copy xmind.desktop to ~/.local/share/applications. If on Gnome Shell, verify you can now find it.
+13. Copy xmind.desktop to /usr/share/applications. If on Gnome Shell, verify you can now find it.
 
 14. Run XMind 8 by clicking on its icon.
 
