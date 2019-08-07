@@ -1,9 +1,9 @@
 # XMind 8 global install on Linux
 [XMind 8](https://www.xmind.net/xmind8-pro) is a free and open source mind mapping program.
 
-The source code and license for XMind8 can be found [here](https://github.com/xmindltd/xmind).
+The source code and license for XMind 8 can be found [here](https://github.com/xmindltd/xmind).
 
-This repo contains files needed to do a global install of XMind 8 (not XMind Zen) on Linux. Root or sudo root is needed for this procedure.
+This repo contains the extra files (not the XMind 8 binaries) needed to do a global install of XMind 8 (not XMind Zen) on Linux. Root or sudo root is needed for this procedure.
 
 Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installing XMind 8 on Fedora 27](https://blog.scottlowe.org/2017/12/15/installing-xmind-8-on-fedora-27/).
 
