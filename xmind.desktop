@@ -4,6 +4,6 @@ Comment=Create and share mind maps
 Exec=xmind
 Terminal=false
 Type=Application
-Icon=xmind.png
+Icon=xmind
 Categories=Office;
 StartupNotify=true;

@@ -7,6 +7,8 @@ This repo contains the extra files (not the XMind 8 binaries) needed to do a glo
 
 Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installing XMind 8 on Fedora 27](https://blog.scottlowe.org/2017/12/15/installing-xmind-8-on-fedora-27/).
 
+Note: XMind 8 requires JRE 8, it will not work with earlier or later versions. Either the OpenJDK 8 or Oracle Java 8 releases will work. The path for JAVA_HOME provided in ```xmind.sh``` assumes the standard installed path in most Linux distributions.
+
 1. First get the [XMind 8 Download for Linux](https://www.xmind.net/download/xmind8).
 
 2. Make an /opt/xmind directory.
@@ -19,13 +21,13 @@ Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installin
 
 6. Create a symlink from /opt/xmind/xmind.sh to /usr/local/bin/xmind.
 
-7. Create a symlink from /opt/xmind/xmind.png to /usr/share/icons/xmind.png.
+7. Create a symlink from /opt/xmind/xmind.xpm to /usr/share/pixmaps/xmind.xpm.
 
 8. Create ~/.config/xmind/workspace in your home directory.
 
-9. Copy /opt/xmind/XMind_amd64/configuration to ~/.config/xmind.
+9. Recursive copy (```cp -r```) /opt/xmind/XMind_amd64/configuration to ~/.config/xmind.
 
-10. Copy /opt/xmind/XMind_amd64/p2 to ~/.config/xmind.
+10. Recursive copy (```cp -r```) /opt/xmind/XMind_amd64/p2 to ~/.config/xmind.
 
 11. Edit /opt/xmind/XMind_64/XMind.ini to change paths in lines 2 and 4 as follows:
     ```
