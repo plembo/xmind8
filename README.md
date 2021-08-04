@@ -13,7 +13,7 @@ I have changed this recipe to assume the application is being installed to the u
 
 1. First get the [XMind 8 Download for Linux](https://www.xmind.net/download/xmind8).
 2. Make an ~/Applications/XMind8 directory.
-3. Extract the Xmind 8 zip file into this directory.
+3. Extract the xmind-8-update9-linux.zip file into this directory.
 4. Download xmind.sh, xmind.desktop and xmind.xpm from this repo into that directory.
 5. Install OpenJDK 8 and extra fonts as root.
 6. Make a ~/.local/share/fonts/truetype/xmind directory.
