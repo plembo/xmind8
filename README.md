@@ -3,7 +3,8 @@
 
 The source code and license for XMind 8 can be found [here](https://github.com/xmindltd/xmind).
 
-Note that [XMind 8](https://flathub.org/apps/details/net.xmind.XMind8) is also available as a flatpak from Flathub.
+**Note that [XMind 8](https://flathub.org/apps/details/net.xmind.XMind8) is also available as a flatpak from Flathub. If you're on a compatible
+platform use of it is preferred over the method described here.**
 
 This repo contains the extra files (not the XMind 8 binaries) needed to do a local install of XMind 8 (not XMind Zen) for a  Linux desktop.
 
