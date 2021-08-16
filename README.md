@@ -10,7 +10,7 @@ This repo contains the extra files (not the XMind 8 binaries) needed to do a loc
 
 Thanks to [Scott Lowe](https://blog.scottlowe.org) for his blog post, [Installing XMind 8 on Fedora 27](https://blog.scottlowe.org/2017/12/15/installing-xmind-8-on-fedora-27/).
 
-Note: XMind 8 requires JRE 8, it will not work with earlier or later versions. Either the OpenJDK 8 or Oracle Java 8 releases will work. The path for JAVA_HOME provided in ```xmind.sh``` assumes the standard installed path in most Linux distributions.
+Note: XMind 8 requires JRE 8, it will not work with earlier or later versions. Either the OpenJDK 8 or Oracle Java 8 releases will work. The path for JAVA_HOME provided in ```xmind.sh``` assumes the standard install path in most Linux distributions.
 
 I have changed this recipe to assume the application is being installed to the user's home directory.
 
