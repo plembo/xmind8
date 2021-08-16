@@ -1,4 +1,4 @@
-# XMind 8 global install on Linux
+# XMind 8 user install on Linux
 [XMind 8](https://www.xmind.net/xmind8-pro) is a free and open source mind mapping program.
 
 The source code and license for XMind 8 can be found [here](https://github.com/xmindltd/xmind).
