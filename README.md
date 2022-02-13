@@ -23,7 +23,7 @@ I have changed this recipe to assume the application is being installed to the u
 6. Make a ~/.local/share/fonts/truetype/xmind directory.
 8. Copy the fonts from ~/.local/xmind8/fonts to that new fonts directory.
 9. Run fc-cache -f as user.
-10. Make xmind.sh executable. Create a symlink from ~/.local/xmind8/xmind.sh to ~/bin/xmind.
+10. Make xmind.sh executable. Create a symlink from ~/.local/xmind8/xmind.sh to ~/.local/bin/xmind.
 11. Copy xmind.xpm to ~/.local/share/icons.
 12. Create ~/.config/xmind/workspace.
 13. Recursive copy (```cp -r```) ~/.local/xmind8/XMind_amd64/configuration to ~/.config/xmind.
